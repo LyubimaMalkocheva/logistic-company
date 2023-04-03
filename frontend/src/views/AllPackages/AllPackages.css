@@ -1,0 +1,55 @@
+.All-packages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 85.6vh;
+  max-height: 300vh;
+  text-align: left;
+  justify-content: space-between;
+  font-weight: 600;
+  padding-top: 3.5em;
+  padding-bottom: 80px;
+  margin: auto;
+  background-color: #FFFF;
+}
+
+.head-all-packages {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F0997D;
+  width: 76%;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 2em;
+  height: 10%;
+}
+
+.title-all-packages {
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.body-all-packages {
+  width: 75%;
+  display: table;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  max-height: 300vh;
+  background-color:rgb(237, 237, 237);
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.each-package {
+  height: 220px;
+  width: 30.5%;
+  float: left;
+  border-radius: 10px;
+  color: #2c3d5d;
+  background-color: #3BACB6;
+  margin: 19px;
+  margin-bottom: 3em;
+}

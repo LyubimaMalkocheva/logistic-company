@@ -1,0 +1,86 @@
+.Header {
+  width: 100%;
+  height: 8em;
+  margin: auto;
+  display: flex;
+  background-color: #E8F9FD;
+  justify-content: space-between;
+  /* position: absolute; */
+  top: 0;
+}
+
+.logo-section {
+  display: flex;
+  margin: auto;
+  justify-content: left;
+  width: 20%;
+}
+
+.logo-section img {
+  width: 300px;
+  height: 55%;
+}
+
+.nav-section {
+  display: flex;
+  height: 100%;
+  width: 55%;
+  justify-content: center;
+  margin: auto;
+}
+
+.navBar {
+  height: 46px;
+  width: 250px;
+  display: flex;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 30px;
+  border-radius: 15px;
+  font-family: var(--main-font);
+  justify-content: center;
+}
+
+.login-section {
+  min-width: 13%;
+  max-width: 20%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.login-section button {
+  background-color: #DD5353;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 22px;
+}
+
+.login-section button:hover {
+  background-color: #e27d7d;
+}
+
+.navBar a {
+  color: #256D85;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  width:auto;
+  padding: 0px 20px 10px 20px;
+}
+
+.navBar>a.active:focus {
+  background-color: #3BACB6;
+  color: #FFFF;
+  outline: none; 
+  border-radius: 15px;
+}
+
+.email-section {
+  display: flex;
+  width: auto;
+  margin: auto;
+  font-size: 20px;
+  color: #256D85;
+margin-right: 20px;
+}

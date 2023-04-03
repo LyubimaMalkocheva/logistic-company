@@ -1,0 +1,57 @@
+.Login {
+  background-color: red !important;
+}
+
+.login-account-text {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0;
+}
+
+.login-account-text a {
+  margin-left: 1em;
+} 
+
+.login-form-body {
+  height: 300px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.login-form {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 450px;
+  height: 150px;
+}
+
+.login-form label {
+  font-size: 18px !important;
+}
+
+.ant-modal-title{
+  display: flex;
+  font-size: 24px !important;
+  justify-content: center;
+}
+
+.login-checkboxes {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  font: 20px;
+}
+
+.error-login-mssg {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: rgb(228, 56, 56);
+}

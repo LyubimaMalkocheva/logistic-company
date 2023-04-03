@@ -1,0 +1,81 @@
+.NewPackage {
+  height: 85.6vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.new-package-section {
+  background-color: #E8F0F2;
+  width: 60%;
+  min-height: 55vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 0;
+  border-radius: 15px;
+  padding-bottom: 15px;
+}
+
+.new-package-form {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 30px;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.new-package-title {
+  display: flex;
+  width: 60%;
+  color: #256D85;
+  margin: auto;
+  height: 100px;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+.new-package-title .title-package-icon {
+ display: flex;
+ justify-content: center;
+ font-size: 2em;
+ align-self: center;
+ margin-right: 15px;
+}
+
+.NewPackage h1 {
+  /* display: flex; */
+  color: #256D85;
+  text-align: center;
+}
+
+.create-button {
+  height: 4vh;
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: red; */
+}
+
+.create-button button {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.create-section {
+  /* display: flex; */
+  /* background-color: red;
+  margin-bottom: 30px; */
+}

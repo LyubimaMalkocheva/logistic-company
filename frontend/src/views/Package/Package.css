@@ -1,0 +1,97 @@
+.Package {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  z-index: 0;
+}
+
+.package-card-header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 88%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 12px;
+  z-index: 0;
+  margin: auto;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 3px;
+}
+
+.package-card-name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.card-icons-column {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px 0px;
+  font-size: 23px;
+}
+
+.card-data {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 5px;
+}
+
+.card-info-button {
+  width: 8%;
+  padding-top: 7px;
+}
+.card-info-button button {
+  width: 100%;
+  font-size: 23px;
+  padding: 0 !important;
+  justify-content: left;
+  color: #0A2647;
+  margin-bottom: 10px;
+}
+.package-card-data {
+  font-size: 20px;
+}
+
+.package-card-footer {
+  color: #ffff;
+  font-size: 20px;
+  height: 13%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popover-data {
+  font-size: 18px !important;
+}
+
+.popover-data:nth-child(1) {
+  margin-right: 50px;
+
+}
+
+.row-data span {
+  font-weight: bold;
+  font-size: 19px !important;
+}
+
+.package-more-data {
+  padding-top: 10px;
+}
+
+.more-info-title {
+  font-size: 24px !important;
+
+}

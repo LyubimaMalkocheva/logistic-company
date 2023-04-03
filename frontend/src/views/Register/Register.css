@@ -1,0 +1,48 @@
+.Register {
+  min-height: 82.75vh;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 2.5em;
+}
+
+.register-title {
+  font-size: 40px !important;
+  padding: 20px 0px;
+  margin-bottom: 1em;
+  color: #08607d;
+}
+
+.register-image-section {
+  width: 45%;
+  height: 100%;
+  margin: auto;
+}
+
+.register-section {
+  width: 40%;
+  margin: auto;
+  background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 15px;
+  min-height: 60vh;
+  max-height: 100vh;
+}
+
+.register-form {
+  width: 100%;
+}
+
+.register-form .section {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 1em;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100% !important;
+}
+
+.register-image {
+  width: 100%;
+}
